@@ -60,7 +60,7 @@ tl.fromTo('.cookie', {
 // Add an event listener to the button that triggers an animation on the '.cookie-container' class when clicked.
 // This animation fades out the cookie container and moves it down by 100px, providing a smooth transition out with a duration of 0.75 seconds and the 'power1.out' ease.
 button.addEventListener('click', () => {
-    gsap.to('.cookie-container', {
+    gsap.to('.cookie-conatainer', {
         opacity: 0,
         y: 100,
         duration: 0.75,
